@@ -1,0 +1,7 @@
+chat_model:
+  model_name: meta-llama/Llama-3.1-8B-Instruct
+  task : text-generation
+  temperature : 0.7
+
+embedding_model:
+  model_name : sentence-transformers/all-MiniLM-L6-v2
